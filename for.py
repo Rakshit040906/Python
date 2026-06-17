@@ -1,45 +1,4 @@
-# #For Loop with lists 
-# l = ["Harry",1,3.5,True]
-# for i in l:
-#     print(i)
-# #For Loop with tuples
-# t = (6, 75, True) 
-# for i in t:
-#     print(i)
-# #For Loop with strings 
-# s = "RAKSHIT"    
-# for i in s:
-#     print(i) 
-# for i in range(1,6):
-#     print(i , end=" ")
-#Print squares of numbers from 1 to 5 
-# for i in range(1,6):
-#     print(i**2, end = " ")
-# Print all even numbers from 1 to 10
-# for i in range(1,11):
-#     if (i%2 == 0):
-#         print(i , end = " ")
-#     else:
-#         print(end = " ") 
-# Print the sum of numbers from 1 to 10
-# sum = 0   
-# for i in range(1,11):
-#     sum += i  
-# print(f"sum is {sum}" ) 
-# Ques 5
-# word = 'python'
-# for i in range(len(word)-1,-1,-1):
-#     print(word[i],end = " ")
-# Ques 6 - finding vowels in a word.
-# vowels = "aeiou"
-# word = "education"
-# count = 0
-
-# for char in word:
-#     if char in vowels:
-#         count += 1 
-# print("Total vowels in this word is",count)  
-# fibbonaci Series 
+fibbonaci Series 
 # a = 0
 # b = 1
 # print(a , b, end = " ")
@@ -54,39 +13,7 @@
 #     fact = i*fact 
 # print("",fact)
 
-#Find whether no. is prime or not 
-# num = 97
-# is_prime = True
-# for i in range(2, int(25 ** 0.5) + 1 ):
-#     if num % i == 0:
-#         is_prime = False 
-#         break 
-# if is_prime and num > 1:
-#     print(num, "is a prime member")   
-# else: 
-#     print(num, "is not a prime number")    
-
-# #Pattern printing 
-# #  * 
-# # ***
-# #***** 
-# n = int(input("Enter the number: "))
-# for i in range(1,n+1):
-#     print(" "* (n-i), end = "")
-#     print("*"*(2*i-1), end="")
-#     print("")
-# # ***
-# # * *
-# # ***
-# n = int(input("Enter the number"))
-# for i in range(1,n+1):  
-#     if(i==1 or i==n):
-#         print("*"*n)
-#     else:
-#         print("*", end="")
-#         print(" "*(n-2), end="") 
-#         print("*", end="")
-#     print("")    
+ 
 # age=25
 # print(type(age))
 # age_str=str(age)
