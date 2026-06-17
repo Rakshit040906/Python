@@ -6,16 +6,6 @@
 #     print("This site is not for you")    
 
 
-# a = int(input("Enter the age: "))
-# if(a>=18):
-#     if(a>99):
-#      print("Dhadkan Rukte Hee Sab Khatam Ho Jaaega")
-#     else:
-#        print("Yes") 
-# elif(a==0):
-#     print("Tagde Hone Pe Dhyan Do") 
-# elif(a<0):
-#     print("Chutiya bana rha hai saade")
 # else:
 #     print("NO")    
 # a = int(input("Enter First Number"))
